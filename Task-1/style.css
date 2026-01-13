@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-pink {
+  background-color: #ff3b7d;
+  color: #fff;
+  border-radius: 25px;
+  padding: 6px 18px;
+  font-size: 14px;
+}
+
+.btn-pink:hover {
+  background-color: #e8336f;
+  color: #fff;
+}
+
+.hero-section {
+  /* background-color: #f3f3ef; */
+  padding: 70px 0 140px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 18px;
+  padding: 8px 16px;
+  background: #ffffff;
+  border-radius: 20px;
+  font-size: 13px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.hero-buttons {
+  margin-top: 26px;
+}
+
+.hero-buttons .btn {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.hero-image {
+  max-height: 360px;
+  border-radius: 22px;
+  width: auto;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+}
+
+.features-section {
+  margin-top: -120px;
+  padding-bottom: 80px;
+}
+
+.features-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 45px 40px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.feature-box {
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.feature-box h6 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.feature-box p {
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.feature-box.pink {
+  background-color: #ffd9e8;
+}
+
+.feature-box.green {
+  background-color: #ddf7d9;
+}
+
+.feature-box.yellow {
+  background-color: #fff3bf;
+}
+.navbar {
+  padding: 14px 0;
+}
