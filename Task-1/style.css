@@ -16,19 +16,24 @@ body {
 }
 
 .hero-section {
-  /* background-color: #f3f3ef; */
-  padding: 70px 0 140px;
+  background-image: url(image/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 0 140px;
+  margin: 15px 120px;
 }
 
 .hero-title {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.2;
+  margin-left: 30px;
 }
 
 .hero-badge {
   display: inline-flex;
   align-items: center;
+  margin-left: 30px;
   gap: 6px;
   margin-top: 18px;
   padding: 8px 16px;
@@ -44,18 +49,22 @@ body {
 .hero-buttons .btn {
   margin-right: 10px;
   font-size: 14px;
+  margin-left: 30px;
 }
 
 .hero-image {
-  max-height: 360px;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   border-radius: 22px;
-  width: auto;
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
 }
 
 .features-section {
-  margin-top: -120px;
+  margin-top: 120px;
   padding-bottom: 80px;
+  margin: 50px 150px;
 }
 
 .features-card {
