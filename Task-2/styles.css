@@ -3,10 +3,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.hero-section {
+  background-image: url(images/banner-image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 0 140px;
+}
+
 .top-bar {
   font-size: 14px;
   background-color: #f1f1f1;
-  padding: 6px 0;
+  margin-right: 30px;
+  text-align: right;
 }
 
 .navbar {
@@ -26,13 +34,24 @@ body {
   width: 400px;
 }
 
-.hero {
+/* .hero {
   background-color: #f4f6f8;
   padding: 50px;
+} */
+
+.h1 {
+  font-weight: bold;
+  color: #fff;
+  font-style: inherit;
 }
 
-.hero h1 {
-  font-weight: bold;
+.p {
+  color: #fff;
+  font-size: 30px;
+}
+
+.div {
+  margin-left: 30px;
 }
 
 .product-card img {
@@ -60,4 +79,14 @@ body {
 .feature-box p {
   font-size: 14px;
   color: #666;
+}
+
+.svg-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.btn {
+  margin-left: 5px;
 }
