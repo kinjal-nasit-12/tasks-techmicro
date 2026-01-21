@@ -47,7 +47,7 @@ body {
 
 .p {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .div {
@@ -81,12 +81,17 @@ body {
   color: #666;
 }
 
-.svg-icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 20px;
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.btn {
-  margin-left: 5px;
+.header-buttons .bi {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar {
+  padding: 10px 15px;
 }
