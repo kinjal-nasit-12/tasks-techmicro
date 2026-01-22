@@ -153,3 +153,35 @@ body {
   gap: 10px;
   align-items: center;
 }
+
+.me-auto {
+    margin-left: auto;
+}
+.feature-box {
+  border: 1px solid #cfe3f1;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.feature-item {
+  padding: 20px 10px;
+  border-right: 1px solid #cfe3f1;
+}
+
+.feature-item i {
+  font-size: 28px;
+  color: #6aa5d7;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.feature-item h6 {
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.feature-item p {
+  font-size: 13px;
+  color: #6c757d;
+  margin: 0;
+}
