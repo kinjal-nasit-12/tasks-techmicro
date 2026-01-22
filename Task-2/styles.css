@@ -1,129 +1,129 @@
 body {
   background-color: #f8f9fa;
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif
 }
 
 .hero-section {
   background-image: url(images/banner-image.avif);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0 140px;
+  padding: 170px 0 140px
 }
 
 .top-bar {
   font-size: 14px;
   background-color: #f1f1f1;
   margin-right: 30px;
-  text-align: right;
+  text-align: right
 }
 
 .navbar {
-  background-color: #2f7df6;
+  background-color: #2f7df6
 }
 
 .navbar-brand {
   color: #fff;
-  font-weight: bold;
+  font-weight: 700
 }
 
 .navbar-brand:hover {
-  color: #fff;
+  color: #fff
 }
 
 .search-input {
-  width: 400px;
+  width: 400px
 }
 
 .h1 {
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
-  font-style: inherit;
+  font-style: inherit
 }
 
 .p {
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 1px
 }
 
 .div {
-  margin-left: 30px;
+  margin-left: 30px
 }
 
 .product-card img {
   max-height: 140px;
-  object-fit: contain;
+  object-fit: contain
 }
 
 .feature-box h6 {
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 700
 }
 
 .feature-box p {
   font-size: 14px;
-  color: #666;
+  color: #666
 }
 
 .header-buttons {
   display: flex;
   gap: 10px;
-  align-items: center;
+  align-items: center
 }
 
 .header-buttons .bi {
   width: 24px;
-  height: 24px;
+  height: 24px
 }
 
 .navbar {
-  padding: 10px 15px;
+  padding: 10px 15px
 }
 
 .product-info {
-  text-align: left;
+  text-align: left
 }
 
 .product-title {
   color: #2f7df6;
   font-weight: 600;
   font-size: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 5px
 }
 
 .price-box {
   display: flex;
   gap: 8px;
   align-items: center;
-  margin-bottom: 3px;
+  margin-bottom: 3px
 }
 
 .old-price {
   text-decoration: line-through;
   color: #999;
-  font-size: 13px;
+  font-size: 13px
 }
 
 .new-price {
   color: #000;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 14px
 }
 
 .rating {
   color: #f4c150;
-  font-size: 13px;
+  font-size: 13px
 }
 
 .product-card {
   padding: 15px;
   border: 1px solid #eee;
-  position: relative;
+  position: relative
 }
 
 .product-card img {
   max-height: 120px;
   object-fit: contain;
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 .discount-badge {
@@ -134,54 +134,55 @@ body {
   color: #fff;
   font-size: 12px;
   padding: 3px 6px;
-  border-radius: 3px;
+  border-radius: 3px
 }
 
 .feature-row {
   background: #fff;
   border: 1px solid #ddd;
-  padding: 20px 0;
+  padding: 20px 0
 }
 
 .feature-row p {
   font-size: 14px;
-  color: #666;
+  color: #666
 }
 
 .header-buttons {
   display: flex;
   gap: 10px;
-  align-items: center;
+  align-items: center
 }
 
 .me-auto {
-    margin-left: auto;
+  margin-left: auto
 }
+
 .feature-box {
   border: 1px solid #cfe3f1;
   border-radius: 4px;
-  background: #fff;
+  background: #fff
 }
 
 .feature-item {
-  padding: 20px 10px;
-  border-right: 1px solid #cfe3f1;
+  padding: 18px;
+  border-right: 1px solid #cfe3f1
 }
 
 .feature-item i {
   font-size: 28px;
   color: #6aa5d7;
-  margin-bottom: 8px;
-  display: block;
+  margin-right: 12px
 }
 
-.feature-item h6 {
-  margin: 5px 0;
-  font-weight: 600;
-}
-
-.feature-item p {
-  font-size: 13px;
-  color: #6c757d;
+.feature-text h6 {
   margin: 0;
+  font-weight: 600;
+  font-size: 14px
+}
+
+.feature-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #6c757d
 }
