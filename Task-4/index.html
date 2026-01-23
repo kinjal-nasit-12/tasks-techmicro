@@ -1,120 +1,96 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Chat UI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Icons -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-  <body>
-    <div class="container-fluid chat-app">
-      <div class="row h-100">
-        <!-- LEFT SIDEBAR -->
-        <div class="col-md-4 col-lg-3 chat-sidebar">
-          <div class="p-3">
-            <input
-              type="text"
-              class="form-control search"
-              placeholder="Search messages"
-            />
-          </div>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-          <div class="chat-users">
-            <div class="chat-user active">
-              <div class="avatar">
-                <i class="bi bi-person-fill"></i>
-              </div>
+<body>
+  <div class="chat-wrapper">
+    <div class="left-bar">
+      <div class="avatar-lg">
+        <i class="bi bi-person-fill"></i>
+      </div>
+    </div>
 
-              <div>
-                <h6 class="mb-0">@tdizzle</h6>
-                <small>Micro tier</small>
-              </div>
-            </div>
-
-            <div class="chat-user">
-              <div class="avatar">
-                <i class="bi bi-person-fill"></i>
-              </div>
-
-              <div>
-                <h6 class="mb-0">@tdizzle</h6>
-                <small>Micro tier</small>
-              </div>
-            </div>
-          </div>
+    <div class="chat-container">
+      <div class="chat-sidebar">
+        <div class="p-3">
+          <input class="form-control search" placeholder="Search messages" />
         </div>
 
-        <!-- RIGHT CHAT AREA -->
-        <div class="col-md-8 col-lg-9 chat-area d-flex flex-column">
-          <!-- CHAT HEADER -->
-          <div
-            class="chat-header d-flex align-items-center justify-content-between p-3"
-          >
-            <div class="d-flex align-items-center">
-              <div class="avatar">
-                <i class="bi bi-person-fill"></i>
-              </div>
-
-              <div class="ms-2">
-                <h6 class="mb-0">@tdizzle</h6>
-                <small>Micro tier</small>
-              </div>
-            </div>
-            <i class="bi bi-three-dots"></i>
-          </div>
-
-          <!-- MESSAGES -->
-          <div class="chat-messages">
-            <div class="message-row received">
-              <div class="message received">Hi! What’s up?</div>
-            </div>
-
-            <div class="message-row sent">
-              <div class="message sent">
-                Hi Jenny, it’s Ryan. How’s it going?
-              </div>
-            </div>
-
-            <div class="message-row received">
-              <div class="message received">
-                Pretty good, thanks. How about you?
-              </div>
-            </div>
-
-            <div class="message-row sent">
-              <div class="message sent">
-                I’m fine. Sure glad it’s Friday. Hey, is Peter there?
-              </div>
+        <div class="user-list">
+          <div class="chat-user active">
+            <div class="avatar"><i class="bi bi-person-fill"></i></div>
+            <div>
+              <h6>@tdizzle</h6>
+              <small>Micro tier</small>
             </div>
           </div>
 
-          <!-- INPUT -->
-          <div class="chat-input p-3 d-flex align-items-center">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Type your message"
-            />
-            <button class="btn btn-primary ms-2">
-              <i class="bi bi-send"></i>
-            </button>
+          <div class="chat-user">
+            <div class="avatar"><i class="bi bi-person-fill"></i></div>
+            <div>
+              <h6>@tdizzle</h6>
+              <small>Micro tier</small>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="chat-area">
+        <div class="chat-header">
+          <div class="d-flex align-items-center gap-2">
+            <div class="avatar"><i class="bi bi-person-fill"></i></div>
+            <div>
+              <h6>@tdizzle</h6>
+              <small>Micro tier</small>
+            </div>
+          </div>
+          <i class="bi bi-three-dots"></i>
+        </div>
+
+        <div class="chat-messages">
+          <div class="message-row received">
+            <div class="message received">Hi! What’s up?</div>
+          </div>
+
+          <div class="message-row sent">
+            <div class="message sent">
+              Hi Jenny, it’s Ryan. How’s it going?
+            </div>
+          </div>
+
+          <div class="message-row received">
+            <div class="message received">
+              Pretty good, thanks. How about you?
+            </div>
+          </div>
+
+          <div class="message-row sent">
+            <div class="message sent">
+              I’m fine. Sure glad it’s Friday. Hey, is Peter there?
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input">
+          <input class="form-control" placeholder="Type your message" />
+          <button class="btn btn-primary">
+            <i class="bi bi-send-fill"></i>
+          </button>
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
